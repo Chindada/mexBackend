@@ -66,10 +66,10 @@ func initAllDc() {
 
 func getDcIP() {
 	iptable = arptable.IPTable()
-	iptable.Store("00D0C9FD7469", "220.130.131.251:9091")
-	iptable.Store("00D0C9E43B8C", "220.130.131.251:9092")
-	iptable.Store("00D0C9FD7A1A", "220.130.131.251:9093")
-	iptable.Store("00D0C9E43B84", "220.130.131.251:9094")
+	iptable.Store("00D0C9FD7469", "iom50.ddns.me:9091")
+	iptable.Store("00D0C9E43B8C", "iom50.ddns.me:9092")
+	iptable.Store("00D0C9FD7A1A", "iom50.ddns.me:9093")
+	iptable.Store("00D0C9E43B84", "iom50.ddns.me:9094")
 
 }
 
